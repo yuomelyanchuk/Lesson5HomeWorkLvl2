@@ -66,12 +66,13 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc= new Scanner(System.in);
-//		System.out.println("input rotate degree multiple on 90");
-//		matrixRotate(sc.nextInt());
-//		
-//		System.out.println("input arreay length");
-//		vectorRotate(sc.nextInt());
-		money(10);
+		System.out.println("input rotate degree multiple on 90");
+		matrixRotate(sc.nextInt());
+	
+		System.out.println("input arreay length");
+		vectorRotate(sc.nextInt());
+		//money(10);
+		sc.close();
 
 	}
 
